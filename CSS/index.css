@@ -1,0 +1,59 @@
+/*  importacoes de estilo  */
+/* _______________________________________________________________________________________ */
+
+/*  importacoes de estilo do main  */
+
+@import url("./main/menu__lateral.css");
+@import url("./main/conteudo.css");
+@import url("./main/conteudo.tocados.css");
+@import url("./main/conteudo__Hipsters.css");
+@import url("./reset.css");
+
+/*  importacoes de estilo do footer */
+    
+    
+
+/*  importacoes de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
+/* Todo o conteudo da pagina  */
+/* _______________________________________________________________________________________ */
+
+/* Variaveis globais */
+
+:root {
+    
+    /*  cores que serão usadas no elementos da pagina  */
+   
+    --cor-elemento-01: #01080E;
+    --cor-elemento-02: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
+    --cor-elemento-03: #041832;
+    --cor-elemento-04: #C4C4C433;
+    ;
+
+    /*  cores que serão usadas apenas no textos da pagina  */
+    
+    --cor-texto-01: #FFFFFF;
+    --cor-texto-02: #2BDEFD;
+    --cor-texto-hover-01:#17AFC9;
+
+    
+    /*  cores que serão usadas no textos e elementos da pagina  */
+    
+   
+    
+    
+    /* fontes  */
+    --fonte-principal: "Open Sans", sans-serif;
+    
+
+}
+
+.todo__conteudo {
+
+    color: var(--cor-texto-01);
+    font-family: var(--fonte-principal);
+
+}
+

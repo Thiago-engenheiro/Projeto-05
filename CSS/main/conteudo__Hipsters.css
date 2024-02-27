@@ -1,0 +1,54 @@
+.conteudo__Hipsters {
+
+    margin: 0px 35px 40px 35px;
+
+}
+
+.conteudo__Hipsters__conjunto {
+
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    
+}
+
+.conteudo__Hipsters__caixas {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-elemento-04);
+    gap: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 160px;
+    height: 260px;
+    word-spacing: 2px;
+    line-height: 1.5;
+
+}
+
+.conteudo__Hipsters__caixas_imagem {
+
+    height: 150px;
+    width: 150px;
+
+}
+
+.conteudo__Hipsters__caixas__titulo {
+
+    font-weight: 700;
+    font-size: 0.875em;
+    
+}
+
+.conteudo__Hipsters__caixas__paragrafo {
+
+    position: absolute;
+    bottom: 5px;
+    font-weight: 400;
+    font-size: 0.75em; 
+    opacity: 0.5;
+
+}
+

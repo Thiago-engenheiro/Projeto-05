@@ -1,0 +1,38 @@
+.conteudo__principal {
+
+    display: grid;
+    grid-template-columns: 225px 1fr;
+	
+}
+
+.conteudo {
+
+    background: var(--cor-elemento-02);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.continer__titulo {
+
+    font-weight: 700;
+    font-size: 1.75em; 
+    padding: 00px 0px 40px 0px;
+
+}
+
+@media (max-width: 400px ) { 
+
+    .conteudo__principal {
+
+        display: block;
+        
+    }
+    
+    .continer__none {
+
+        display: none;
+        
+    }
+}

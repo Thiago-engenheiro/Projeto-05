@@ -1,0 +1,77 @@
+.conteudo__tocados {
+
+    margin: 0px 35px 0px 35px;
+
+}
+
+.conteudo__tocados__icone {
+
+    margin: 30px 10px 40px 0px;
+
+}
+
+.conteudo__tocados__conjunto {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.conteudo__tocados__caixas {
+
+    display: flex;
+    background-color: var(--cor-elemento-04);
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    width: 390px;
+    flex-grow: 1;
+    border-radius: 20px;
+    text-align: left;
+    gap: 15px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+
+.conteudo__tocados__caixas_imagem {
+
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.conteudo__tocados__caixas__titulo {
+
+    margin: 20px 0px 20px 0px;
+    border-bottom: 2px solid var(--cor-texto-01);
+    width: 75%;
+ 
+
+}
+
+.conteudo__tocados__caixas_icone {
+
+    margin: 20px 10px 20px 10px;
+    height: 70px;
+    width: 60px;
+
+}
+
+@media (max-width: 400px ) { 
+
+    .conteudo__tocados__caixas {
+
+        width: auto;
+        gap: 5px;
+    }
+
+    .conteudo__tocados__caixas__titulo {
+
+        display: none;
+
+    }
+
+}
